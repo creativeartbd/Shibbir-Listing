@@ -1,0 +1,711 @@
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1201px) { 
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media only screen and (min-width: 992px)  and (max-width: 1200px){
+	.listghor_title h2 {
+	    font-size: 32px;
+	}
+	/*index.html*/
+	.hero_v2{
+		overflow: hidden;
+	}
+	.menu_button .listghor_btn {
+	    padding: 10px 10px;
+	    font-size: 12px;
+	}
+	.listghor_menu .main_menu ul li > a{
+		padding: 25px 0px;
+	}
+	.header_bg_1 {
+	    padding: 150px 0 100px;
+	}
+	.welcome_text h1 {
+	    font-size: 36px;
+	}
+	/*home_2.html*/
+	.header_v2 .listghor_logo .wh_logo{
+		display: block;
+	}
+	.header_v2 .listghor_logo .cl_logo{
+		display: none;
+	}
+	.category_v2 .category_box .category_info h5,
+	.category_v1 .category_box .category_info h5{
+	    font-size: 13px;
+	}
+	.working_process_v2 .work_box.iconshape_5:after{
+		display: none;
+	}
+	.listing_contact_v1 .contact_img_box:before{
+		display: none;
+	}
+	.category_v3 .category_box .category_info h5 {
+	    font-size: 12px;
+	}
+	.working_process_v3 .work_box .listghor_info h4 {
+	    font-size: 20px;
+	}
+	.listing_style_v3 .listing_item_box .listing_info .post_info h3 {
+	    font-size: 18px;
+	}
+	.single_blog_wrapper .blog_box .blog_info .post_meta a,
+	.listghor_blog_v4 .blog_box .blog_info .post_meta a{
+		margin-right: 10px;
+	}
+	/*about.html*/
+	.listghor_breadcrumb{
+		padding: 150px 0 100px;
+	}
+	/*index.html*/
+	.demo_info h5 {
+	    font-size: 16px;
+	}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.site_menu{
+		display: none;
+	}
+	.mobile_menu{
+		display: block;
+	}
+	.mobile_menu_logo img{
+		width: 100%;
+	}
+	.listghor_title h2 {
+	    font-size: 28px;
+	    line-height: 36px;
+	}
+	.listghor_img img{
+		width: 100%;
+	}
+	/*index.html*/
+	.hero_v1  {
+	    padding: 180px 0 100px;
+	}
+	.welcome_text h1 {
+	    font-size: 38px;
+	    line-height: 48px;
+	}
+	.hero_search .form_group,
+	.hero_search .form_group .search_select{
+		margin-bottom: 20px;
+	}
+	.hero_search .filter_button .search_btn{
+		padding: 12px 31px;
+	}
+	.about_v1 .about_content_box {
+		margin-bottom: 60px;
+	}
+	.about_v1 .about_img_box .overlay_img {
+	    border-top-left-radius: 100px;
+	    border-top-right-radius: 100px;
+	    border-bottom-left-radius: 100px;
+	}
+	.working_process_v1 .work_box{
+	    margin-bottom: 60px;
+	}
+	.listghor_blog_v1 .blog_box{
+		margin-bottom: 40px;
+	}
+	.listghor_blog_v1 .blog_list_wrapper .blog_box{
+		margin-bottom: 40px;
+	}
+	.listing_contact_v1 .contact_img_box{
+		margin-bottom: 60px;
+	}
+	.listghor_foooter  .widget_box{
+		margin-bottom: 60px;
+	}
+	/*home_2.html*/
+	.about_v2 .about_content_box{
+		margin-bottom: 0;
+	}
+	.about_v2 .about_img_box{
+		margin-bottom: 60px;
+	}
+	.working_process_v2 .work_box{
+		margin-bottom: 60px;
+	}
+	.working_process_v2 .work_box.iconshape_5:after{
+		display: none;
+	}
+	.work_box_2.iconshape_5:after{
+		display: none;
+	}
+	.listghor_team_v2 .team_box{
+		margin-bottom: 60px;
+	}
+	.footer_widget_1 {
+	    padding: 50px 0;
+	}
+	.how_it_work_1, .how_it_work_2,
+	.listghor_team_2.section_padding {
+	    padding: 120px 0 60px;
+	}
+	/*home_v3.html*/
+	.hero_v3{
+		border-radius: 0;
+	}
+	.header_v3 .mobile_menu_icon .menu_icon{
+		color: #f67849
+	}
+	.hero_search_v3,
+	.hero_search_v3_bg:after{
+		border-radius: 0;
+	}
+	.listghor_blog_v3 .blog_box,
+	.listghor_pricing_v2 .pricing_box,
+	.working_process_v3 .work_box,
+	.category_v3 .category_box{
+		margin-bottom: 60px;
+	}
+	.listing_style_v3 .listing_item_box .listing_info .post_info h3{
+		font-size: 18px;
+	}
+	.listghor_client_v3 .avatar_thumb{
+		float: none;
+	}
+	.listghor_client_v3 .client_review_box{
+		margin-left: 0;
+    	margin-top: 20px;
+	}
+	.foooter_v3{
+		border-radius: 0;
+	}
+	/*about.html*/
+	.listghor_breadcrumb{
+		padding: 150px 0 50px;
+	}
+	.breadcrumb_content h2 {
+	    font-size: 28px;
+	    line-height: 36px;
+	}
+	.about_v3 .listghor_content_box,
+	.listghor_team_v1 .team_box,
+	.lisology_project_v1 .counter_box{
+		margin-bottom: 60px;
+	}
+	.listghor_pricing_v1 .pricing_box{
+		margin-bottom: 60px;
+	}
+	/*blog_grid.html*/
+	.single_blog_wrapper .blog_box .blog_info .post_meta a,
+	.listghor_blog_v4 .blog_box .blog_info .post_meta a {
+	    margin-right: 24px;
+	    color: #6e7797;
+	}
+	/*blog_details.html*/
+	.single_blog_content h2{
+		margin-bottom: 20px;
+	}
+	.share_text {
+	    text-align: center;
+	}
+	.share_post .share_link {
+	    float: none;
+	    text-align: center;
+	    margin-top: 20px;
+	}
+	.share_post .share_link ul.social_link_2 li {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	.listghor_single_blog .comment_form{
+		margin-bottom: 60px;
+	}
+	/*contact.html*/
+	.contact_info_v1 .listghor_box,
+	.listing_contact_v2 .listghor_img_box {
+		margin-bottom: 60px;
+	}
+	/*registration.html*/
+	.listghor_wrapper_form .wrapper_form_left .content_text h2 {
+	    font-size: 28px;
+	}
+	.listghor_wrapper_form .wrapper_form_left .form_text a.social_link{
+		width: 100px;
+	}
+	.forgot_link.float-right {
+	    float: none !important;
+	}
+	.listghor_wrapper_form .wrapper_form_right .form_text a.social_link{
+		margin-bottom: 10px;
+	}
+	.blog_grid_left_sidebar .listghor_sidebar,
+	.blog_list_left_sidebar .listghor_sidebar,
+	.listing_list_right_sidebar .listing_page_sidebar{
+		margin-bottom: 60px;
+	}
+	.listghor_list_details .listghor_sidebar,
+	.blog_grid_right_sidebar .listghor_sidebar,
+	.blog_list_right_sidebar .listghor_sidebar,
+	.listing_grid_sidebar .listing_page_sidebar,
+	.listing_list_left_sidebar .listghor_sidebar{
+		margin-top: 60px;
+	}
+	.footer_widget_wrapper {
+	    padding: 120px 0 40px;
+	}
+	/*index.html*/
+	.demo_bg {
+	    padding: 50px 0 50px;
+	}
+	.demo_menu {
+	    padding: 20px 0;
+	}
+	.listghor_logo img {
+	    width: 200px;
+	}
+	.demo_menu .menu_button .demo_btn{
+	    padding: 7px 28px;
+	    font-size: 14px;
+	}
+	.demo_content,
+	.demo_box {
+	    margin-bottom: 40px;
+	}
+	.demo_box .demo_img img{
+		width: 100%;
+	}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media only screen and (max-width: 767px) {
+	.listghor_title h2 {
+	    font-size: 24px;
+	    line-height: 32px;
+	}
+	.site_menu{
+		display: none;
+	}
+	.mobile_menu{
+		display: block;
+	}
+	.mobile_menu_logo img{
+		width: 100%;
+	}
+	/*index_1.html*/
+	.hero_v1 {
+	    padding: 180px 0 100px;
+	}
+	.welcome_text h1{
+		font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 15px;
+	}
+	.hero_search .form_group,
+	.hero_search .form_group .search_select{
+		margin-bottom: 20px;
+	}
+	.about_v1 .about_content_box{
+		margin-bottom: 60px;
+	}
+	.about_v2 .about_content_box h2,
+	.about_v1 .about_content_box h2{
+		font-size: 32px;
+    	line-height: 45px;
+	}
+	.listghor_filter .filter_btn {
+	    margin-bottom: 15px;
+	}
+	.listing_style_v1 .listing_item_box .listing_info .post_meta ul li.icon{
+	    margin-left: 10px;
+	}
+	.working_process_v1 .work_box{
+		margin-bottom: 60px;
+	}
+	.working_process_v1 .work_box .listghor_info h4{
+		font-size: 18px;
+	}
+	.listghor_blog_v1 .blog_box{
+		margin-bottom: 40px;
+	}
+	.listghor_blog_v1 .blog_list_wrapper .blog_box{
+		display: block;
+		margin-bottom: 40px;
+	}
+	.listghor_blog_v1 .blog_list_wrapper .blog_box .listghor_img {
+	    width: 100%;
+	}
+	.listghor_blog_v1 .blog_list_wrapper .blog_box .blog_info {
+		width: 100%;
+	    margin-left: 0px;
+	    margin-top: 20px;
+	}
+	.listing_contact_v1 .contact_img_box:before{
+		display: none;
+	}
+	.form_button{
+	    text-align: center;
+	}
+	.footer_widget_1 {
+	    padding: 120px 0 35px;
+	}
+	.copyright_text{
+		text-align: center;
+	}
+	.listghor_foooter .footer_copyright .copyright_link {
+	    float: none;
+	    text-align: center;
+	}
+	.listghor_foooter .footer_copyright .copyright_link ul li {
+	    margin-left: 9px;
+	    margin-right: 7px;
+	}
+	.listghor_img img{
+		width: 100%;
+	}
+	/*home_2.html*/
+	.hero_v2 {
+	    padding: 110px 0;
+	}
+	.hero_v2 .welcome_text p {
+	    color: #fff;
+	}
+	.hero_v2 .welcome_text a.listghor_btn.welcome_btn {
+	    background: #fff;
+	    color: #000a2d;
+	}
+	.listing_contact_v1 .contact_img_box,
+	.listghor_team_v2 .team_box,
+	.working_process_v2 .work_box,
+	.about_v2 .about_img_box{
+		margin-bottom: 60px;
+	}
+	.about_v2 .about_content_box{
+		margin-bottom: 0;
+	}
+	.working_process_v2 .work_box.iconshape_5:after{
+		display: none;
+	}
+	.listing_contact_v1 .contact_img_box:after{
+		display: none;
+	}
+	/*home_3.html*/
+	.sidenav_menu{
+		z-index: 99999;
+	}
+	.header_top .top_left{
+		text-align: center;
+	}
+	.header_top .top_left a {
+	    margin-right: 10px;
+	    margin-left: 10px;
+	    margin-bottom: 5px;
+	}
+	.header_top .top_right {
+	    float: none;
+	    text-align: center;
+	}
+	.header_v3 .mobile_menu_icon .menu_icon{
+		color: #f67849;
+	}
+	.hero_v3{
+		padding: 150px 0;
+		border-radius: 0;
+	}
+	.hero_search_v3,
+	.hero_search_v3_bg:after{
+		border-radius: 0;
+	}
+	.category_v3 .category_text{
+		margin-top: 40px;
+	}
+	.category_v3 .category_box{
+		margin-bottom: 40px;
+	}
+	.listghor_blog_v3 .blog_box,
+	.listghor_pricing_v2 .pricing_box,
+	.working_process_v3 .work_box{
+		margin-bottom: 60px;
+	}
+	.listghor_client_v3 .avatar_thumb{
+		float: none;
+	}
+	.listghor_client_v3 .client_review_box{
+		margin-left: 0;
+    	margin-top: 20px;
+	}
+	.foooter_v3{
+		border-radius: 0;
+	}
+	.listghor_foooter .widget_box {
+		margin-bottom: 60px;
+	}
+	/*breadcrumb section*/
+	.listghor_breadcrumb{
+		padding: 150px 0 50px;
+	}
+	.breadcrumb_content h2{
+	    font-size: 28px;
+	    line-height: 36px;
+	}
+	/*about.html*/
+	.about_v3 .listghor_content_box{
+		margin-bottom: 60px;
+	}
+	.about_v3 .listghor_content_box .about_content h2 {
+	    font-size: 28px;
+	    line-height: 38px;
+	}
+	.listghor_team_v1 .team_box,
+	.lisology_project_v1 .counter_box{
+		margin-bottom: 60px;
+	}
+	/*add_listing.html*/
+	.add_day_hours .search_select{
+		margin-bottom: 15px;
+	}
+	.opening_hours .day_hours_list h5 {
+	    font-size: 14px;
+	}
+	/*prcing.html*/
+	.listghor_pricing_1.section_padding{
+		padding: 120px 0 60px;
+	}
+	.pricing_box{
+		margin-bottom: 60px;
+	}
+	/*listing_list.html*/
+	.listing_style_v4 .listing_item_box{
+	    display: block;
+	    align-items: flex-start;
+	}
+	.listing_style_v4 .listing_item_box .listghor_img{
+		width: 100%;
+	}
+	.listing_style_v4 .listing_item_box .listing_info{
+		width: 100%;
+	}
+	.listing_style_v4 .listing_item_box .listing_info .post_info h3 {
+	    line-height: 34px;
+	}
+	.listing_style_v4 .listing_item_box .listing_info .post_meta{
+		text-align: center;
+	}
+	.listing_style_v4 .listing_item_box .listing_info .post_meta ul li:first-child {
+	    display: block;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.listing_style_v4 .listing_item_box .listing_info .post_meta ul li.icon{
+		display: inline-block;
+	    float: none;
+	    margin-left: 5px;
+	    margin-right: 5px;
+	}
+	/*listing_details.html*/
+	.top_information h3 {
+	    font-size: 18px;
+	}
+	.listing_details_box.comment_area.rateing_box .single_comment {
+		padding: 20px 0px;
+	}
+	.listing_details_box.comment_area.rateing_box .single_comment:nth-child(2n+1) {
+	    padding-left: 00px;
+	}
+	.admin_box_3 .admin_info {
+	    padding: 30px 15px;
+	}
+	.instagram_info .insta_img img{
+		width: 110px;
+	}
+	/*faq.htnl*/
+	.faq_acoridian_1 .card-header a{
+		font-size: 12px;
+	}
+	.faq_acoridian_1 .card-header {
+		padding: 5px 30px;
+	}
+	.faq_acoridian_1 .card .card-header a i.fas {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	/*blog_list.html*/
+	.listghor_sidebar .widget_box .wb_news_list .news_info h2 {
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.blog_box_3 .blog_info .post_text h2{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.blog_box_3 .blog_info .post_meta a{
+		font-size: 12px;
+		margin-right: 15px;
+	}
+	.listghor_pagination ul li a{
+		margin-bottom: 10px;
+	}
+	/*blog_details.html*/
+	.listghor_blog_v4 .blog_list_wrapper .blog_box .blog_info .post_text h2 {
+	    font-size: 22px;
+	    line-height: 32px;
+	}
+	.single_blog_wrapper .blog_box .blog_info .post_meta a,
+	.listghor_blog_v4 .blog_box .blog_info .post_meta a {
+	    margin-right: 10px;
+	    color: #6e7797;
+	}
+	.single_blog_content h2{
+		font-size: 28px;
+		line-height: 38px;
+		margin-bottom: 30px;
+	}
+	.share_post {
+		text-align: center;
+	}
+	.share_post .share_text {
+	    margin-bottom: 20px;
+	}
+	.share_post .share_link {
+	    float: none;
+	}
+	.share_post .share_link ul.social_link_2 li {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	}
+	.admin_blog {
+	    display: block;
+	    text-align: center;
+	    padding: 30px 15px;
+	}
+	.admin_blog .admin_info {
+	    margin-left: 0px;
+	    padding: 20px 10px;
+	}
+	.admin_blog .admin_info ul.social_link_2 li {
+	    margin-right: 7px;
+	    margin-left: 7px;
+	}
+	.comment_area .single_comment{
+		padding: 30px;
+	}
+	.comment_area .single_comment:nth-child(2n+1) {
+	    padding-left: 0px;
+	    padding: 30px;
+	}
+	.blog_box_4 .blog_info .post_meta a {
+	    color: #6e7797;
+	    margin-right: 15px;
+	    font-size: 16px;
+	}
+	.blog_box_4 .blog_info .post_meta a i{
+		margin-right: 10px;
+	}
+	.single_blog_main .single_blog_content .single_content .listghor_img_box{
+		margin-bottom: 40px;
+	}
+	.listghor_sidebar .widget_box .wb_news_list .single_wb_news {
+		align-items: start;
+	}
+	.single_content .listghor_img{
+		margin-bottom: 40px;
+	}
+	/*contact.html*/
+	.listing_contact_v2 .listghor_img_box{
+		margin-bottom: 60px;
+	}
+	.listing_contact_v2 .listghor_content_box .contact_title h2 {
+	    font-size: 28px;
+	}
+	.contact_info_v1 .listghor_box{
+	    margin-bottom: 60px;
+	}
+	/*registration.html*/
+	.listghor_wrapper_form{
+		display: block;
+	}
+	.login_wrapper .form_button{
+		text-align: left;
+	}
+	.listghor_wrapper_form .wrapper_form_left,
+	.listghor_wrapper_form .wrapper_form_right{
+	    position: relative;
+	    width: 100%;
+	}
+	.listghor_wrapper_form .wrapper_form_left .content_text h2 {
+	    font-size: 26px;
+	    line-height: 36px;
+	}
+	.listghor_wrapper_form .wrapper_form_left{
+	    padding: 50px 50px 200px;
+	}
+	.listghor_wrapper_form .wrapper_form_right{
+	    padding: 50px 50px;
+	}
+	.listghor_wrapper_form .wrapper_form_left .brand_logo {
+	    bottom: 50px;
+	}
+	.listghor_wrapper_form .wrapper_form_right .form_text a.social_link{
+		width: 100px;
+	}
+	.forgot_link.float-right {
+	    float: none !important;
+	}
+	.blog_grid_left_sidebar .listghor_sidebar,
+	.blog_list_left_sidebar .listghor_sidebar,
+	.listing_list_right_sidebar .listing_page_sidebar{
+		margin-bottom: 60px;
+	}
+	.listghor_list_details .listghor_sidebar,
+	.blog_grid_right_sidebar .listghor_sidebar,
+	.blog_list_right_sidebar .listghor_sidebar,
+	.listing_grid_sidebar .listing_page_sidebar,
+	.listing_list_left_sidebar .listghor_sidebar{
+		margin-top: 60px;
+	}
+	.footer_widget_wrapper {
+	    padding: 120px 0 40px;
+	}
+	/*index.html*/
+	.demo_bg {
+	    padding: 50px 0 50px;
+	}
+	.demo_menu {
+	    padding: 20px 0;
+	}
+	.listghor_logo {
+	    text-align: center;
+	}
+	.listghor_logo img {
+	    width: 200px;
+	}
+	.demo_menu .menu_button {
+		margin-top: 20px;
+	    float: none;
+	    text-align: center;
+	}
+	.demo_menu .menu_button .demo_btn{
+	    padding: 7px 28px;
+	    font-size: 14px;
+	}
+	.demo_content h2 {
+	    font-size: 28px;
+	    line-height: 36px;
+	}
+	.demo_content,
+	.demo_box {
+	    margin-bottom: 40px;
+	}
+	.demo_box .demo_img img{
+		width: 100%;
+	}
+	/*404.html*/
+	.listghor_error_404 .content_404 h2{
+		font-size: 28px;
+		line-height: 36px;
+	}
+}
+
+/*wide mobile devices*/
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+	.listghor_listing_list .listing_item_box .listing_item_info .post_meta ul li.icon {
+	    float: right;
+	    margin-left: 10px;
+	}
+}
