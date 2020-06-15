@@ -21,13 +21,14 @@ class Installer {
      * Add time and version on DB
      */
     public function add_version() {
-        $installed = get_option( 'shibbir_listing_installed' );
+        $installed = get_option( 'shibbir_listing_installed' );        
 
         if ( ! $installed ) {
-            update_option( 'shibbir_listing_installed', time() );
+            update_option( 'shibbir_listing_installed', time() );        
         }
 
         update_option( 'shibbir_listing_version', shibbir_listing_VERSION );
+        update_option( 'is_sl_flushed', false );
     }
 
     /**

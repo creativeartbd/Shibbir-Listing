@@ -15,7 +15,7 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been.</p>
                 </div>
                 <div class="listghor_form">
-                    <form action="" method="post" class="login_form" id="login_data">
+                    <form action="" method="post" class="login_form">
                         <div class="form_group">
                             <input type="text" class="form_control" placeholder="Username" name="user_name" required>
                             <i class="fas fa-envelope"></i>
@@ -44,7 +44,9 @@
                         <div class="form_button">
                             <?php wp_nonce_field( 'log_nonce_action' ); ?>                         
                             <input type="hidden" name="action" value="log_nonce_action">
-                            <button type="submit" class="listghor_btn form_btn login"><?php _e( 'sign in', 'shibbir-directory-listing' ) ?></button>
+                            <button type="submit" class="listghor_btn form_btn login">
+                                <?php _e( 'sign in', 'shibbir-listing' ) ?>
+                            </button>
                         </div>
                         <div class="form_text">
                             <p>Don’t have an account?<a href="<?php echo wp_registration_url(); ?>"> Sign up</a></p>
